@@ -2,7 +2,7 @@
 
 # Modulo de inglés - FAMAF - Computacion
 
-> Cuatrimestre
+> Cualquier cuatrimestre
 
 Necesita tener aprobada:
 
@@ -17,14 +17,26 @@ Es correlativa de:
 > https
 
 ```bash
-git clone https://github.com/FAMAF-resources/Modulo_de_ingles-FAMAF.git
+git clone --recurse-submodules https://github.com/FAMAF-resources/Modulo_de_ingles-FAMAF.git
 ```
 
 > bash (recomendado)
 
 ```bash
-git clone git@github.com:FAMAF-resources/Modulo_de_ingles-FAMAF.git
+git clone --recurse-submodules git@github.com:FAMAF-resources/Modulo_de_ingles-FAMAF.git
 ```
+
+## Update
+
+```bash
+git pull && git submodule update --init --recursive
+```
+
+# ¿Cómo contribuir?
+
+Cualquier persona puede realizar su aporte, sea apunte, libro, o actualizacion de este repositoro.
+
+Puede ser realizado por una pull request (PR) o comunicándose con los administradores.
 
 # Contribuciones
 
@@ -32,5 +44,5 @@ Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de 
 
 # Contributors
 <a href="https://github.com/FAMAF-resources/Modulo_de_ingles-FAMAF/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FAMAF-resources/Modulo_de_ingles-FAMAF"/>
+  <img src="https://contrib.rocks/image?repo=FAMAF-resources/Modulo_de_ingles-FAMAF" height="50"/>
 </a>
